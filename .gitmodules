@@ -1,3 +1,6 @@
 [submodule "lib/phaser"]
 	path = lib/phaser
 	url = https://github.com/photonstorm/phaser
+[submodule "lib/requirejs"]
+	path = lib/requirejs
+	url = https://github.com/jrburke/requirejs
