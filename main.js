@@ -12,10 +12,11 @@ require([
   'app/utils/AssetManager'
 ], function (PhaserGame, BootState, AssetManager) {
 
-  console
-
+  /* Phaser Game initialization */
   PhaserGame.initialize(640, 480, Phaser.AUTO, 'phaser_viewport');
-  PhaserGame.game.state.add('Boot', BootState);
-  PhaserGame.game.state.start('Boot');
+  /* Add states to the game */
+  PhaserGame.addState('Boot', BootState);
+  /* Start the game */
+  PhaserGame.start('Boot');
 
 });
