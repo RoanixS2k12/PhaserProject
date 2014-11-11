@@ -1,0 +1,12 @@
+body {
+	margin:0;
+	padding: 0;
+}
+
+#phaser_viewport {
+	width: 60%;
+	height: 500px;
+	background-color: black;
+	margin:auto;
+	margin-top: 5%;
+}
